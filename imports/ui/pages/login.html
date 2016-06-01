@@ -1,0 +1,59 @@
+<template name="login">
+        <div data-page="login-screen-embedded" class="view view-main">
+            <div class="navbar navbar-hidden">
+
+                <div class="navbar-inner navbar-on-center">
+                    <div style="transform: translate3d(0px, 0px, 0px);" class="left sliding"><a href="index.html" class="back link"><i style="transform: translate3d(0px, 0px, 0px);" class="icon icon-back"></i><span>Back</span></a></div>
+                    <div style="left: -6.5px; transform: translate3d(0px, 0px, 0px);" class="center sliding">Login Screen</div>
+                    <div class="right"><a href="#" class="link open-panel icon-only"><i class="icon icon-bars"></i></a></div>
+                </div></div>
+            <div class="toolbar toolbar-hidden">
+                <div class="toolbar-inner"><a href="#" class="link">Dummy Link</a><a href="#" data-popover=".popover-menu" class="open-popover link">Menu</a></div>
+            </div>
+            <div class="pages navbar-through toolbar-through">
+
+                <div data-page="login-screen" class="page page-on-left">
+                    <div class="page-content">
+                        <div class="content-block">
+                            <p>Framework7 comes with ready to use Login Screen layout. It could be used inside of page or inside of popup (Embedded) or as a standalone overlay:</p>
+                        </div>
+                        <div class="content-block row">
+                            <div class="col-50"><a href="login-screen-embedded.html" class="button">Embedded Into Page</a></div>
+                            <div class="col-50"><a href="#" class="button open-login-screen">As Overlay</a></div>
+                        </div>
+                    </div>
+                </div><div data-page="login-screen-embedded" class="page no-toolbar no-navbar no-swipeback page-on-center">
+                <div class="page-content login-screen-content">
+                    <div class="login-screen-title">Framework7</div>
+                    <form>
+                        <div class="list-block">
+                            <ul>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title label">Username</div>
+                                        <div class="item-input">
+                                            <input name="username" placeholder="Your username" type="text">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title label">Password</div>
+                                        <div class="item-input">
+                                            <input name="password" placeholder="Your password" type="password">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list-block">
+                            <ul>
+                                <li><a href="#" class="item-link list-button">Sign In</a></li>
+                            </ul>
+                            <div class="list-block-label">Some text about login information.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                        </div>
+                    </form>
+                </div>
+            </div></div>
+        </div>
+</template>

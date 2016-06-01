@@ -1,0 +1,11 @@
+{
+  "name": "matchbox",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "framework7": "^1.4.2",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
